@@ -1,7 +1,7 @@
 header:
   - titles:
       # @start locale config
-      en      : &EN       Archive
+      en      : &EN       All Content
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -51,7 +51,7 @@ header:
 
   - titles:
       # @start locale config
-      en      : &EN       Books
+      en      : &EN       Writing
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
@@ -72,4 +72,29 @@ header:
       fr-FR   : *FR
       fr-LU   : *FR
       # @end locale config
-    url: /books.html
+    url: /writing.html
+
+  - titles:
+      # @start locale config
+      en      : &EN       Teaching
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO
+      ko-KR   : *KO
+      fr      : &FR
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      # @end locale config
+    url: /teaching.html

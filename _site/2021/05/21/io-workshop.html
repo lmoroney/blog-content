@@ -1,10 +1,10 @@
 <!DOCTYPE html><html lang="en">
   <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>Artificial Intelligence for Anyone - Part One - Laurence Moroney - The AI Guy.</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>Machine Learning for anomaly detection - Laurence Moroney - The AI Guy.</title>
 
-<meta name="description" content="Part One: What is Artificial Intelligence?Artificial Intelligence (AI) is the single most overhyped area of technology I have ever encountered. The amount of...">
-<link rel="canonical" href="/2021/05/22/what-is-ai.html"><link rel="alternate" type="application/rss+xml" title="Laurence Moroney - The AI Guy." href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
+<meta name="description" content="At Google IO this year, I had many activities, one of which was to teach a workshop in anomaly detection. It uses a novel approach – by training an encoder-d...">
+<link rel="canonical" href="/2021/05/21/io-workshop.html"><link rel="alternate" type="application/rss+xml" title="Laurence Moroney - The AI Guy." href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
 
 <meta name="msapplication-TileColor" content="#ffc40d"><meta name="msapplication-config" content="/assets/browserconfig.xml">
 
@@ -271,7 +271,7 @@
         <ul><li class="navigation__item"><a href="/archive.html">All Content</a></li><li class="navigation__item"><a href="/about.html">About</a></li><li class="navigation__item"><a href="/writing.html">Writing</a></li><li class="navigation__item"><a href="/teaching.html">Teaching</a></li><li><button class="button button--secondary button--circle search-button js-search-toggle"><i class="fas fa-search"></i></button></li></ul>
       </nav></div>
   </header>
-</div><div class="page__content"><img class="article__header--cover" src="/assets/blog-banner-1.png" /><div class ="main"><div class="grid grid--reverse">
+</div><div class="page__content"><div class ="main"><div class="grid grid--reverse">
 
               <div class="col-aside d-print-none js-col-aside"><aside class="page__aside js-page-aside"><div class="toc-aside js-toc-root"></div>
 </aside></div>
@@ -279,108 +279,32 @@
               <div class="col-main cell cell--auto"><!-- start custom main top snippet -->
 
 <!-- end custom main top snippet -->
-<article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>Artificial Intelligence for Anyone - Part One</h1></header></div><meta itemprop="headline" content="Artificial Intelligence for Anyone - Part One"><div class="article__info clearfix"><ul class="left-col menu"><li>
+<article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>Machine Learning for anomaly detection</h1></header></div><meta itemprop="headline" content="Machine Learning for anomaly detection"><div class="article__info clearfix"><ul class="left-col menu"><li>
               <a class="button button--secondary button--pill button--sm"
-                href="/archive.html?tag=AI4ALL">AI4ALL</a>
-            </li></ul><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>May 22, 2021</span>
-            </li></ul></div><meta itemprop="author" content="Laurence Moroney"/><meta itemprop="datePublished" content="2021-05-22T00:00:00-07:00">
-    <meta itemprop="keywords" content="AI4ALL"><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
+                href="/archive.html?tag=google">google</a>
+            </li><li>
+              <a class="button button--secondary button--pill button--sm"
+                href="/archive.html?tag=talks">talks</a>
+            </li></ul><ul class="right-col menu"><li><i class="far fa-calendar-alt"></i> <span>May 21, 2021</span>
+            </li></ul></div><meta itemprop="author" content="Laurence Moroney"/><meta itemprop="datePublished" content="2021-05-21T00:00:00-07:00">
+    <meta itemprop="keywords" content="google,talks"><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
 
 <!-- end custom article top snippet -->
-<div class="article__content" itemprop="articleBody"><h1 id="part-one-what-is-artificial-intelligence">Part One: What is Artificial Intelligence?</h1>
-<p>Artificial Intelligence (AI) is the single most overhyped area of technology I have ever encountered. The amount of misinformation and confusion around AI is staggering, so it’s the purpose of this set of tutorials to explain not just what AI <em>is</em> but also what it <em>isn’t</em>.</p>
+<div class="article__content" itemprop="articleBody"><p>At Google IO this year, I had many activities, one of which was to teach a workshop in anomaly detection. It uses a novel approach – by training an encoder-decoder architecture with electrocardiogram (EKG) values and exploring the reconstruction error.</p>
 
-<p>You can ask ten technologists what AI is, and you’ll probably get ten different answers, so with that in mind, let me at least start you with my answer.</p>
+<p>The logic was that when an autoencoder model gets trained on only good EKG values, then the reconstruction error for good ones will be small. Thus, an abnormal EKG would have a high reconstruction error, and if this is above a certain threshold, we know that it’s an anomaly.</p>
 
-<h2 id="its-not-artificial-life">It’s not Artificial <em>Life</em></h2>
-<p>First of all, there’s <em>Artificial Life</em> sometimes referred to as Artificial General Intelligence (AGI).</p>
-
-<p><img src="/assets/aiml.png" alt="Artificial Live v Artificial Intelligence" /></p>
-
-<p>AGI does not exist <em>yet</em>, and this has been the subject of speculative stories and prophecies for generations. These will often cast the artificial life in a <em>negative</em> light, with one of the oldest I have been able to find coming from the Biblical Book of Revelation, authored around 80AD, where future events concerning the end of the world involve several beasts. At one point, it describes:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>"It ordered them to set up an image of the beast who was wounded by the sword but yet lived. 
-The second beast was given power to give breath to the *image* for the first beast, 
-so that the *image* could speak and cause all who refuse to worship the **image** to be killed"
-</code></pre></div></div>
-
-<p>Note that the word <em>image</em> here is a translation of the Greek word for <em>statue</em>, <em>figure</em> or <em>representation</em>. This word, in turn, derives from a word meaning something that is like another thing, an artificial copy of it.</p>
-
-<p>Later literature doubles down on this fear of artificial life. While stories like ‘The Golem of Prague’ and ‘Frankenstein’ may appear primitive in terms of modern technology, the underlying tale dramatically resembles that of ‘Terminator,’ ‘Battlestar Galactica,’ and countless others in that artificial life is something that will destroy us, and needs to be feared.</p>
-
-<p>And often, this type of artificial <em>life</em> is conflated with artificial <em>intelligence</em>, leading us to fear AI.</p>
-
-<p>So let’s first put that stake in the ground in our definition of AI. It is <em>not</em> artificial life.</p>
-
-<h2 id="its-not-smart-computers">It’s not smart Computers</h2>
-
-<p>To understand what artificial intelligence is, let’s now turn to computing, and let’s try to understand what that’s all about. We often give computers credit for being smart, a meme brought about undoubtedly by science fiction, with the characters of shows like <em>Star Trek</em> able to talk to their computer and find out just about anything they need to know. Indeed, I remember, when at the ripe age of twelve years old, I got my first computer. I remember plugging it into the TV and starting to write programs in BASIC. A friend came round to see it, and when given a turn, the first thing he typed was “What is the capital of Brazil?”.</p>
-
-<p>When the machine replied, “Syntax Error,” he was aghast. Computers were supposed to know <em>everything</em>. And while that misconception has gone away with more exposure of the general public to computing platforms, the underlying belief remains.</p>
-
-<p>What computers <em>are</em> very good at is doing lots of monotonous, repetitive tasks very quickly. Programmers can create sets of commands that computers will act on, but in many ways, the actual intelligence and the problem-solving aspect comes from the programmer’s mind and not from the machine.</p>
-
-<p>Since the dawn of computing, that’s been the job of programmers. Figure out how to solve a problem, break the steps of the solution down into simple-to-understand commands using a programming language, and then get the machine to do the job.</p>
-
-<p>This process has been the bread-and-butter for the Computer Science industry for decades. Until the advent of <em>Machine Learning</em>.</p>
-
-<h2 id="it-is-just-another-algorithm">It is just another algorithm</h2>
-
-<p>Now, while the term Machine Learning might make it sound like you are dealing with an artificial lifeform capable of learning in much the same way an actual lifeform would, that’s not the case. Machine Learning is still just a computer doing many calculations to make its program work a bit better, but automating the process instead of needing a programmer to figure it out.</p>
-
-<p>Let’s consider an example here. We’ll start with a simple one for a human to program and use that as the basis for understanding how a machine can learn.</p>
-
-<p>There are two main scales for measuring temperature globally, and these are Celsius and Fahrenheit. There’s a formula that connects the two of these, so you would figure out how to express that formula using a coding language.</p>
-
-<p>So, for example, you might write:</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">c</span><span class="o">-</span><span class="n">to</span><span class="o">-</span><span class="n">f</span><span class="p">(</span><span class="n">c</span><span class="p">):</span>
-  <span class="n">f</span> <span class="o">=</span> <span class="p">(</span><span class="n">c</span><span class="o">*</span><span class="mf">1.8</span><span class="p">)</span> <span class="o">+</span> <span class="mi">32</span>
-  <span class="k">return</span> <span class="n">f</span>
-</code></pre></div></div>
-
-<p>You’d come up with this answer is because you probably looked up the formula for converting Celsius to Fahrenheit and then figured out the particular syntax to do that in a programming language such as Python.</p>
-
-<p>Consider what would happen if you didn’t have the formula but still needed to figure out the relationship between the two values. Instead, you have a table of readings on both scales. What would you then do?</p>
-
-<p>For example, you know that</p>
-<ul>
-  <li>10 degrees C is 50 degrees F</li>
-  <li>5 degrees C is 41 degrees F</li>
-  <li>0 degrees C is 32 degrees F</li>
-</ul>
-
-<p>From the 0C = 32F relationship, you might surmise that the F value is 32+(something) times the C value. If that were the case, then you’d look at the 5C = 41F relationship and see that the 41 is 32+(1.8 times 5). You’d then verify this by calculating that the 10C=50F fit the same formula. You now know that the F value is 32 + 1.8 times the C value.</p>
-
-<p>Note that there were two <em>parameters</em> in the above function. You calculated ‘f’ by multiplying ‘c’ by <em>something</em> (in this case, 1.8) and adding another <em>something</em> (32).</p>
-
-<h2 id="the-key-to-machine-learning-pattern-matching">The key to Machine Learning: Pattern Matching</h2>
-
-<p>The process that we call ‘Machine Learning’ does a very similar thing, but a lot less smartly than you just did. It will guess the two parameters, and then, given the data, it will measure how good or how bad that guess is. That measurement is called a ‘loss.’ It will then strategize guessing to reduce this loss.</p>
-
-<p><img src="/assets/mlcycle.png" alt="The ML Loop" /></p>
-
-<p>So, for example, it might guess that f = 10+(10<em>c), initializing both parameters to 10. If it were to do that, then 0C would be 10F, which would be off by 22. Similarly, 5C would be 60F, and 10C would be 110F, both wildly incorrect. So the machine would strategize and use some fancy math to come up with another, better guess, maybe f=15+(5</em>c). It would still be wrong, but <em>less</em> so. Getting closer and closer to the correct answer using brute force mathematics is commonly referred to as Machine Learning. So please, forget all those pictures of child-like robots sitting in a schoolroom. Those aren’t representative of Machine Learning at all!</p>
-
-<p>For a trivial example like this, where it’s easy for a human to establish the rules, this may seem pointless. But what about circumstances where it’s tough for a <em>human</em> to see the rules that determine something? For example, what if you look at a picture like this. You can instantly tell that it’s a dog. But how do you have a computer recognize that? How can it tell the difference between a dog and a cat?</p>
-
-<p>In a process similar to the above, you can have a computer look at lots of pictures of dogs and cats and use a similar brute-force method to find out what in the data distinguishes one from another. Surprisingly, recent research has shown that with the correct Machine Learning algorithm, computers are often better at humans at distinguishing visual objects. Not only that, researchers have been ab[le to use these algorithms to spot things in images that humans don’t see. There’s a famous story from Google Research. When exploring data from <a href="https://www.nature.com/articles/s41551-018-0195-0">retina scans</a>, a researcher noticed that gender and age data were available, so they wrote a Machine Learning algorithm to figure out a person’s age and birth-assigned gender from a retina scan. It proved to be more accurate than most humans at guessing these details!</p>
-
-<p><img src="/assets/retina.png" alt="Retina Image" /></p>
-
-<p>This technique, Machine Learning, gives us a new way to program computers that behave more like intelligent creatures. So, instead of a picture just being numbers representing the dots that make it up, a computer can now figure out that it contains a cat, a dog, or a diseased retina. Or similarly, it can represent a sound as a type of bird, a regular heartbeat, or an alarm, instead of just a bunch of frequencies.</p>
-
-<p>But, it is important to remember they are <em>not</em> alive, and they are <em>not</em> intelligent. And that is why the field is called <em>Artificial</em> intelligence.</p>
-
-<p>In the next article in this series, I’ll go deeper into Machine Learning, look in more detail at some applications and how these applications can change the world for the better.</p>
-
-<!--more-->
-</div><section class="article__sharing d-print-none"></section><div class="d-print-none"><footer class="article__footer"><meta itemprop="dateModified" content="2021-05-22T00:00:00-07:00"><!-- start custom article footer snippet -->
+<p>Watch the entire workshop here:</p>
+<div><div class="extensions extensions--video">
+  <iframe src="https://www.youtube.com/embed/2K3ScZp1dXQ?rel=0&amp;showinfo=0" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
+</div>
+</div>
+</div><section class="article__sharing d-print-none"></section><div class="d-print-none"><footer class="article__footer"><meta itemprop="dateModified" content="2021-05-21T00:00:00-07:00"><!-- start custom article footer snippet -->
 
 <!-- end custom article footer snippet -->
 <div class="article__subscribe"><div class="subscribe"><i class="fas fa-rss"></i> <a type="application/rss+xml" href="/feed.xml">Subscribe</a></div>
 </div></footer>
-<div class="article__section-navigator clearfix"><div class="previous"><span>PREVIOUS</span><a href="/2021/05/21/io-workshop.html">Machine Learning for anomaly detection</a></div><div class="next"><span>NEXT</span><a href="/2021/05/23/next-book.html">My next book - AI and ML for On-Device Developers</a></div></div></div>
+<div class="article__section-navigator clearfix"><div class="next"><span>NEXT</span><a href="/2021/05/22/what-is-ai.html">Artificial Intelligence for Anyone - Part One</a></div></div></div>
 
 </div>
 

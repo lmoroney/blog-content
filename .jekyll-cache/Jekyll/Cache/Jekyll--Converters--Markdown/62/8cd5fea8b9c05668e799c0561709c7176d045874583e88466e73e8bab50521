@@ -1,0 +1,38 @@
+I"
+<p>I’m incredibly passionate about teaching and ecstatic that in the last few years, I have been able to scale to millions of students via MOOC platforms like Coursera, edX, and Udacity.</p>
+
+<p>This page lists the major courses I have worked on, and I hope you can find something interesting to learn from them.</p>
+
+<p>I’m always interested in new teaching opportunities at Universities. If you’re looking for a guest lecturer or adjunct professor, please email me!</p>
+
+<h2 id="tiny-ml-at-edx-with-harvard-university">Tiny ML at edX with Harvard University</h2>
+
+<p>I was honored to be a part of this specialization taught by Harvard University. The goal is to widen access to education about Machine Learning and AI on mobile and embedded systems. In the courses you’ll learn about:</p>
+
+<ul>
+  <li>Fundamentals of machine learning, deep learning, and embedded devices.</li>
+  <li>How to gather data effectively for training machine learning models.</li>
+  <li>How to use Python to train and deploy tiny machine learning models.</li>
+  <li>How to optimize machine learning models for resource-constrained devices.</li>
+  <li>How to conceive and design your own tiny machine learning application.</li>
+  <li>How to program in TensorFlow Lite for Microcontrollers.</li>
+</ul>
+
+<p><a href="https://www.edx.org/professional-certificate/harvardx-tiny-machine-learning">Find out more here</a></p>
+
+<h2 id="tensorflow-advanced-techniques-with-deeplearningai">TensorFlow: Advanced Techniques with deeplearning.ai</h2>
+
+<p>Following on from the previous two specializations taught alongside Dr. Andrew Ng from deeplearning.ai, this specialization teaches you how to peel open TensorFlow so you can start exploring it for more advanced scenarios.  We introduce the features of TensorFlow that provide learners with more control over their model architecture and gives them the tools to create and train advanced ML models. This specialization is for early and mid-career software and machine learning engineers with a foundational understanding of TensorFlow, seeking to expand their knowledge and skillset by learning advanced TensorFlow features to build robust models.</p>
+
+<p>It consists of four courses:</p>
+
+<ul>
+  <li>Custom Models, Layers, and Loss Functions with TensorFlow</li>
+  <li>Custom and Distributed Training with TensorFlow</li>
+  <li>Advanced Computer Vision with TensorFlow</li>
+  <li>Generative Deep Learning with TensorFlow</li>
+</ul>
+
+<p><a href="https://www.coursera.org/specializations/tensorflow-advanced-techniques">Find out more here</a></p>
+
+:ET
