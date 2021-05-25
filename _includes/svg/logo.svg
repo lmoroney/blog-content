@@ -1,8 +1,1 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="24px" height="24px" viewBox="0 0 24 24">
-<style type="text/css">
-	.st0{fill:#515151;}
-</style>
-<path class="st0" d="M1.7,22.3c5.7-5.7,11.3-5.7,17,0c3.3-3.3,3.5-5.3,0.8-6c2.7,0.7,3.5-1.1,2.3-5.6s-3.3-5.2-6.3-2.1
-	c3-3,2.3-5.2-2.1-6.3S7,1.8,7.7,4.6C7,1.8,5,2.1,1.7,5.3C7.3,11,7.3,16.7,1.7,22.3"/>
-</svg>
+<svg height="2500" viewBox="15 0 200 229" width="2500" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle cx="68" cy="39" fill="#ea4335" r="12"/><circle cx="68" cy="89" fill="#ea4335" r="12"/><circle cx="68" cy="139" fill="#ea4335" r="12"/><circle cx="68" cy="189" fill="#ea4335" r="12"/><g fill="#fbbc04"><circle cx="111" cy="14" r="14"/><circle cx="111" cy="64" r="14"/><circle cx="111" cy="114" r="14"/><circle cx="111" cy="164" r="14"/><circle cx="111" cy="215" r="14"/></g><circle cx="153.5" cy="39.5" fill="#34a853" r="16.5"/><circle cx="153.5" cy="89.5" fill="#34a853" r="16.5"/><circle cx="153.5" cy="139.5" fill="#34a853" r="16.5"/><circle cx="153.5" cy="189.5" fill="#34a853" r="16.5"/><g fill="#4285f4"><circle cx="196" cy="64" r="19"/><circle cx="25" cy="64" r="10"/><circle cx="25" cy="114" r="10"/><circle cx="25" cy="164" r="10"/><circle cx="196" cy="114" r="19"/><circle cx="196" cy="164" r="19"/></g></g></svg>

@@ -1,5 +1,6 @@
 ---
 title: Machine Learning for anomaly detection
+layout: article
 tags: google talks
 ---
 
