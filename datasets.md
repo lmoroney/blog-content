@@ -4,6 +4,10 @@ aside:
   toc: true
 title: Datasets for Machine Learning
 key: page-teaching
+redirect_from: 
+  - /horses-or-humans-dataset/
+  - /rock-paper-scissors-dataset/
+
 
 ---
 
@@ -35,7 +39,7 @@ They’re arranged into sub folders within the zip that makes it easy to auto la
 The dataset is licensed as a CC By 2.0, free for you to share and adapt for all uses, commercial or non-commercial. Please just attribute and give appropriate credit to Laurence Moroney (lmoroney@gmail.com / laurencemoroney.com), and place no additional restrictions on your users as outlined here.
 
 ## Rock Paper Scissors Dataset
-Rock Paper Scissors contains images from various hands, from different races, ages, and genders, posed into Rock / Paper or Scissors and labeled as such. You can download the training set here and the test set here. I created these images using CGI techniques as an experiment in determining if a model trained on a CGI-based dataset could classify real images. I also generated a few pictures that you can use for predictions. You can find them here.
+Rock Paper Scissors contains images from various hands, from different races, ages, and genders, posed into Rock / Paper or Scissors and labeled as such. You can download the [training set here](https://storage.googleapis.com/laurencemoroney-blog.appspot.com/rps.zip) and the [test set here](https://storage.googleapis.com/laurencemoroney-blog.appspot.com/rps-test-set.zip). I created these images using CGI techniques as an experiment in determining if a model trained on a CGI-based dataset could classify real images. I also generated a few pictures that you can use for predictions. You can [find them here](https://storage.googleapis.com/laurencemoroney-blog.appspot.com/rps-validation.zip).
 
 Note that all of these pictures use a plain white background.
 Each image is 300×300 pixels in 24-bit color.

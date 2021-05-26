@@ -255,7 +255,7 @@
 </head>
   <body>
     <div class="root" data-is-touch="false">
-      <div class="layout--page js-page-root"><div class="page__main js-page-main page__viewport cell cell--auto">
+      <div class="layout--page js-page-root"><div class="page__main js-page-main page__viewport has-aside cell cell--auto">
 
       <div class="page__main-inner"><div class="page__header d-print-none"><header class="header"><div class="main">
       <div class="header__title">
@@ -266,7 +266,8 @@
   </header>
 </div><div class="page__content"><div class ="main"><div class="grid grid--reverse">
 
-              <div class="col-aside d-print-none js-col-aside"></div>
+              <div class="col-aside d-print-none js-col-aside"><aside class="page__aside js-page-aside"><div class="toc-aside js-toc-root"></div>
+</aside></div>
 
               <div class="col-main cell cell--auto"><!-- start custom main top snippet -->
 
@@ -274,96 +275,83 @@
 <article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>About</h1></header></div><meta itemprop="headline" content="About"><meta itemprop="author" content="Laurence Moroney"/><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
 
 <!-- end custom article top snippet -->
-<div class="article__content" itemprop="articleBody"><p><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg" alt="TeXt Theme" /></p>
+<div class="article__content" itemprop="articleBody"><p>I’m Laurence Moroney:  I lead AI Advocacy at Google, am a best-selling author of both programming books and fiction, and also find time to enjoy the hobby of being a digital artist. Please reach out if you have any questions using the social contacts at the bottom of this page.</p>
 
-<p>TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.</p>
+<h2 id="what-i-do-at-google">What I do at Google</h2>
+<p>What does that mean? I’m glad you asked. AI Advocacy aims to educate, inspire, and inform developers, and by extension, the rest of the world about AI.</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(()</span> <span class="o">=&gt;</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">Hello, World!</span><span class="dl">'</span><span class="p">))();</span>
-</code></pre></div></div>
+<h3 id="educate">Educate:</h3>
 
-<h2 id="features">Features</h2>
+<p><img src="/assets/lm-andrew.jpeg" alt="Laurence and Andrew" /></p>
+
+<p>First, let’s talk about education. We support this in several ways:</p>
 
 <ul>
-  <li>Responsive</li>
-  <li>Semantic HTML</li>
-  <li>Skins</li>
-  <li>Highlight Theme</li>
-  <li>Internationalization</li>
-  <li>Search</li>
-  <li>Table of contents</li>
-  <li>Authors</li>
-  <li>Additional styles (alert, tag, image, icon, button, grid, etc)</li>
-  <li>Extensions (audios, videos, slides, demos)</li>
-  <li>Markdown enhancements (<a href="https://www.mathjax.org/">MathJax</a>, <a href="https://mermaidjs.github.io/">mermaid</a>, <a href="http://www.chartjs.org/">chartjs</a>)</li>
-  <li>Sharing (<a href="https://www.addtoany.com/">AddToAny</a>, <a href="https://www.addthis.com/">AddThis</a>)</li>
-  <li>Comments (<a href="https://disqus.com/">Disqus</a>, <a href="https://gitalk.github.io/">Gitalk</a>, <a href="https://valine.js.org/en/">Valine</a>)</li>
-  <li>Pageview (<a href="https://leancloud.cn/">LeanCloud</a>)</li>
-  <li>Analytics (<a href="https://analytics.google.com/analytics/web/">Google Analytics</a>)</li>
-  <li>RSS (<a href="https://github.com/jekyll/jekyll-feed">jekyll-feed</a>)</li>
+  <li>
+    <p>We help Universities to <a href="https://blog.tensorflow.org/2020/02/request-for-proposals-faculty-awards-to-support-machine-learning-courses-universities.html">create curricula</a> for their students to understand how to build AI systems with Machine Learning, Deep Learning, and more</p>
+  </li>
+  <li>
+    <p>We support Massively Open Online Courses (MOOCs) through the creation and teaching of content. <a href="/teaching.html">I teach many courses</a>, which you can find on the teaching tab at the top of this page</p>
+  </li>
+  <li>
+    <p>We support other initiatives to <a href="https://thehill.com/changing-america/respect/equality/521765-google-launches-new-program-with-hbcus-to-help-address">widen access to AI</a> to traditionally underserved groups, including driving racial and gender equity. I personally ran a <a href="https://houdaaynaou.com/articles/women-in-tensorflow-hackathon/">Women in TensorFlow 6-week crash course</a> for over 100 women in Seattle! Hopefully post-pandemic, I can do it again!</p>
+  </li>
+  <li>
+    <p>We run the <a href="https://youtube.com/tensorflow">TensorFlow YouTube channel</a> with hundreds of videos to help developers understand AI and start building it.</p>
+  </li>
 </ul>
 
-<h2 id="skins">Skins</h2>
+<h3 id="inspire">Inspire:</h3>
 
-<p>TeXt has 6 built-in skins, you can also set up your own skin.</p>
+<p><img src="/assets/korea.jpeg" alt="Korea Bootcamp" /></p>
 
-<table>
-  <thead>
-    <tr>
-      <th><code class="language-plaintext highlighter-rouge">default</code></th>
-      <th><code class="language-plaintext highlighter-rouge">dark</code></th>
-      <th><code class="language-plaintext highlighter-rouge">forest</code></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg" alt="Default" /></td>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg" alt="Dark" /></td>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg" alt="Forest" /></td>
-    </tr>
-  </tbody>
-</table>
+<p>I get daily questions from developers or students who want to know how to get started with a <em>career</em> in AI. With this in mind, we like to inspire, connected with the education initiative by:</p>
 
-<table>
-  <thead>
-    <tr>
-      <th><code class="language-plaintext highlighter-rouge">ocean</code></th>
-      <th><code class="language-plaintext highlighter-rouge">chocolate</code></th>
-      <th><code class="language-plaintext highlighter-rouge">orange</code></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg" alt="Ocean" /></td>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg" alt="Chocolate" /></td>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg" alt="Orange" /></td>
-    </tr>
-  </tbody>
-</table>
+<ul>
+  <li>
+    <p>We designed a <a href="https://www.tensorflow.org/certificate">certificate curriculum and test</a> that demonstrates to potential employers that the person with this certificate has gained expertise in building AI and ML systems for common scenarios like Computer Vision, Natural Language Processing, and Sequence modeling.</p>
+  </li>
+  <li>
+    <p>We work with communities like <a href="https://developers.google.com/community/gdg">Google Developer Groups</a>, <a href="https://www.tensorflow.org/community/groups">TensorFlow User Groups</a>, and many more to help them have material for their meet-ups, and when possible, attend them ourselves.</p>
+  </li>
+  <li>
+    <p>We drive the messaging and narratives used by Google at major events. I was privileged to help write the keynotes for <a href="https://youtu.be/D_mVOAXcrtc">Google IO</a> this year!</p>
+  </li>
+  <li>
+    <p>We deliver keynote conferences at developer events. The largest I ever did was at a <a href="https://youtu.be/Vf4oac3EViU">Google Developer Days in Shanghai</a> that got streamed to 10 million people!</p>
+  </li>
+  <li>
+    <p>I regularly keynote hackathons, workshops and bootcamps. My recent favorite (in the picture above), as for a <a href="https://developers-kr.googleblog.com/2020/09/mlbootcamp_11.html">Korean AI bootcamp</a> that I got to kick off along with Jeff Dean and Andrew Ng.</p>
+  </li>
+</ul>
 
-<h3 id="highlight-theme">Highlight Theme</h3>
+<h3 id="inform">Inform:</h3>
+<p><img src="/assets/hqdefault.jpeg" alt="Youtube Thumbnail" /></p>
 
-<p>TeXt use <a href="https://github.com/chriskempson/tomorrow-theme">Tomorrow</a> as the highlight theme.</p>
+<p>Developers need regular updates on frameworks, technology, and roadmaps, and it’s my job to drive this forward for Google AI.</p>
 
-<table>
-  <thead>
-    <tr>
-      <th><code class="language-plaintext highlighter-rouge">tomorrow</code></th>
-      <th><code class="language-plaintext highlighter-rouge">tomorrow-night</code></th>
-      <th><code class="language-plaintext highlighter-rouge">tomorrow-night-eighties</code></th>
-      <th><code class="language-plaintext highlighter-rouge">tomorrow-night-blue</code></th>
-      <th><code class="language-plaintext highlighter-rouge">tomorrow-night-bright</code></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png" alt="Tomorrow" /></td>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png" alt="Tomorrow Night" /></td>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png" alt="Tomorrow Night Eighties" /></td>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png" alt="Tomorrow Night Blue" /></td>
-      <td><img src="https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png" alt="Tomorrow Night Bright" /></td>
-    </tr>
-  </tbody>
-</table>
+<ul>
+  <li>The TensorFlow YouTube Channel has regular updates and how-tos</li>
+  <li>We drive, create, and present talks and workshops at conferences like Google IO and the TensorFlow Dev Summit</li>
+  <li>We write and run the TensorFlow blog and regularly contribute to other Google outreach.</li>
+</ul>
+
+<h2 id="my-writing">My Writing</h2>
+
+<p><img src="/assets/eqd.jpg" alt="Equilibrium cover" /></p>
+
+<p>The <a href="/writing.html">writing page</a> on this site lists out all my books. I’ve written many programming ones, a few fiction ones, a couple of comic books, and a produced screenplay.</p>
+
+<p>I’m particularly passionate about Science Fiction and am currently at work on a collection of short stories about how technology will impact the world the day after tomorrow. I am a member of the <a href="https://sfwa.org">Science Fiction Writers of America</a>, and I hope someone will publish it! <em>If you are an agent or know an agent, please contact me!</em></p>
+
+<p>I also got the chance to dabble in writing comic books a few years back and learned what a brutal, cut-throat industry that can be! I did get a publication out of it – the official prequel to the movie ‘Equilibrium,’ created as a six-part comic book series, but sales of the first issue were so bad, it got canceled :(</p>
+
+<h2 id="my-art">My Art</h2>
+
+<p><img src="/assets/artsample1.png" alt="art sample" /></p>
+
+<p>I got bitten by the CGI bug after writing my novel, “The Fourth World”. Some Hollywood folks were asking about it, so I quickly learned how to visualize characters, and ever since then, I’ve been hooked! I like to work with Daz3D, and you can see some <a href="http://deviantart.com/lmoroney">samples of my work here</a>.</p>
+
 </div><section class="article__sharing d-print-none"></section><div class="d-print-none"><footer class="article__footer"><!-- start custom article footer snippet -->
 
 <!-- end custom article footer snippet -->
@@ -962,6 +950,68 @@ window.Lazyload.js([SOURCES.jquery, PAHTS.search_js], function() {
 /*(function () {
 
 })();*/
+</script><script>
+  /* toc must before affix, since affix need to konw toc' height. */(function() {
+  var SOURCES = window.TEXT_VARIABLES.sources;
+  var TOC_SELECTOR = window.TEXT_VARIABLES.site.toc.selectors;
+  window.Lazyload.js(SOURCES.jquery, function() {
+    var $window = $(window);
+    var $articleContent = $('.js-article-content');
+    var $tocRoot = $('.js-toc-root'), $col2 = $('.js-col-aside');
+    var toc;
+    var tocDisabled = false;
+    var hasSidebar = $('.js-page-root').hasClass('layout--page--sidebar');
+    var hasToc = $articleContent.find(TOC_SELECTOR).length > 0;
+
+    function disabled() {
+      return $col2.css('display') === 'none' || !hasToc;
+    }
+
+    tocDisabled = disabled();
+
+    toc = $tocRoot.toc({
+      selectors: TOC_SELECTOR,
+      container: $articleContent,
+      scrollTarget: hasSidebar ? '.js-page-main' : null,
+      scroller: hasSidebar ? '.js-page-main' : null,
+      disabled: tocDisabled
+    });
+
+    $window.on('resize', window.throttle(function() {
+      tocDisabled = disabled();
+      toc && toc.setOptions({
+        disabled: tocDisabled
+      });
+    }, 100));
+
+  });
+})();
+(function() {
+  var SOURCES = window.TEXT_VARIABLES.sources;
+  window.Lazyload.js(SOURCES.jquery, function() {
+    var $window = $(window), $pageFooter = $('.js-page-footer');
+    var $pageAside = $('.js-page-aside');
+    var affix;
+    var tocDisabled = false;
+    var hasSidebar = $('.js-page-root').hasClass('layout--page--sidebar');
+
+    affix = $pageAside.affix({
+      offsetBottom: $pageFooter.outerHeight(),
+      scrollTarget: hasSidebar ? '.js-page-main' : null,
+      scroller: hasSidebar ? '.js-page-main' : null,
+      scroll: hasSidebar ? $('.js-page-main').children() : null,
+      disabled: tocDisabled
+    });
+
+    $window.on('resize', window.throttle(function() {
+      affix && affix.setOptions({
+        disabled: tocDisabled
+      });
+    }, 100));
+
+    window.pageAsideAffix = affix;
+  });
+})();
 </script>
     </div>
     <script>(function () {
