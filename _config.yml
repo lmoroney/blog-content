@@ -62,9 +62,9 @@ repository_tree: master
 ## => Paths
 ##############################
 paths:
-  root    : # title link url, "/" (default)
-  home    : # home layout url, "/" (default)
-  archive : # "/archive.html" (default)
+  root    : /about.html # title link url, "/" (default)
+  home    : /about.html # home layout url, "/" (default)
+  archive : /archive.html # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
 
 
@@ -224,3 +224,5 @@ plugins:
   - jekyll-sitemap
   - jemoji
   - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap

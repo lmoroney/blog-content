@@ -1,4 +1,4 @@
-I".<p><img src="/assets/gantcover.jpg" alt="Gant Cover" /></p>
+I"�<p><img src="/assets/gantcover.jpg" alt="Gant Cover" /></p>
 
 <p>I was delighted to get an advance copy of Gant Laborde’s “Learning TensorFlow.js” from O’Reilly and privileged to have written the foreword.</p>
 
@@ -10,7 +10,7 @@
 
 <p>How much fun is that?</p>
 
-<p>I <em>love</em> this book because it is for a different audience than the traditional ML one. It starts with a fun introduction to AI and then tells you about TensorFlow.js and how you can use it to build Machine Learning apps. Then, the mystery of Tensors is cracked open, and Gant leads you through some fun examples of how you can convert images into Tensors for training and inference.</p>
+<p>I <em>love</em> this book because it is for a different audience than the traditional ML one. It starts with a great introduction to AI and then tells you about TensorFlow.js and how you can use it to build Machine Learning apps. Then, the mystery of Tensors is cracked open, and Gant leads you through some detailed examples of how you can convert images into Tensors for training and inference.</p>
 
 <p>It guides you through the three main ways to get a working model.</p>
 
@@ -24,6 +24,6 @@
 
 <p>For example, Chapter 6 shows you how to use the webcam in the browser, capturing frames and passing them to a model for classification. Chapter 10 shows you how to create a basic sketchpad for drawing images that a model can interpret.</p>
 
-<p>Whether you’re an experienced Machine Learning expert, looking to see how to apply JavaScript to help solve your problems, or a JavaScript developer who wants to enter the wonderful world of ML, this book is for you. Check it out!</p>
+<p>Whether you’re an experienced Machine Learning expert, looking to see how to apply JavaScript to help solve your problems, or a JavaScript developer who wants to enter the wonderful world of ML, this book is for you. <a href="https://www.oreilly.com/library/view/learning-tensorflowjs/9781492090786/">Check it out!</a></p>
 
 :ET

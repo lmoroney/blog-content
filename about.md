@@ -2,7 +2,7 @@
 layout: article
 aside:
   toc: true
-title: About
+title: Welcome to my site!
 key: page-about
 ---
 
