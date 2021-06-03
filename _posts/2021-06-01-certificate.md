@@ -1,5 +1,6 @@
 ---
 layout: article
+tags: careers
 aside:
   toc: true
 title: Jobs in ML - Getting the TensorFlow Certificate
