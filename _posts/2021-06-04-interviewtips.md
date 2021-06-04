@@ -1,0 +1,75 @@
+---
+layout: article
+tags: careers
+aside:
+  toc: true
+title: Tips for getting a job in tech - Part Three - The Interview
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .9), rgba(139, 34, 139, .9))'
+    src: /assets/interview.png
+---
+
+It's all come together. Your [resume](https://laurencemoroney.com/2021/06/02/resumetips.html) passed through the system. Your [networking](https://laurencemoroney.com/2021/06/03/networkingtips.html) got you noticed. Now it's time for...the interview!
+
+Now all companies will interview differently, so I'm going to focus on what I'm more experienced in, and that is how larger companies tend to fill specific spots. And that's with an initial screen by a recruiter, followed by a technical screen, followed by an interview loop. 
+
+## The Initial Screen
+The initial screen is often given by a recruiter, who isn't very technical, and if they have technical questions, they are likely working from a script, so you need to keep your answers precise and concise. The questions won't be open-ended. But, of course, you can't work *together* with them to come up with an answer. If you don't know it, take your best shot, and move on. The worst answer you can give is complaining about the question! 
+
+You might get a question along the lines of: "Profiling tools show a memory leak in your app. What steps would you take to fix it?"
+
+It's pretty straightforward. Either you know it (excellent!), or you don't (not the end of the world, but how you deal with trying to answer it can tell a lot about you), so don't panic. Do your best, and try to build a rapport with the interviewer. It's not a confrontation; it's an opportunity for friendship.
+
+If they ask if *you* have any questions, please take advantage of this. Ask about the next steps, what you might need to do to prepare, or, best of all, if there's anything else the interviewer needs from you because you understand their time is valuable too.
+
+## The Tech Screen
+Like the initial screen, this one will be with someone more tech-savvy, and thus, may be more open-ended and involve coding. You may get a Google Doc (or similar) shared with you, and they'll ask you to pseudocode a problem. Note: Typing it in real-time is essential here. Some candidates have a library of common questions/answers that they've scoured off the internet that they can paste into an answer doc. Whenever I do a tech screen, if I see a paste of code, it's an instant red flag, and I'll ask many questions about that code. If someone starts typing and starts talking their way through the problem, asking clarifying questions of me -- then I'm impressed! The code doesn't have to be perfect. The point is to see if the person *can* code and not a test to see if they can *deliver working code*. All too often, people think the latter and end up cheating. Please don't do it. 
+
+And this is your opportunity to ask on-the-job questions with somebody that does the job all the time. Try not to veer into questions about pay or benefits, or hours. Focus on the job at hand.
+
+## The Interview Loop
+Not every experience will be the same, but a loop will typically involve about five interviews, and these will be from folks that you immediately work with, as well as folks from adjacent teams that you'll work alongside. A Developer Advocate interview loop may, for example, have two DAs, one Manager, one marketing person, and one product team person. The important thing that they are all looking for is if they can work with you. You need more than just ability, but also, very importantly, attitude and ethic. For example, you might respect the DAs and the product person but be subconsciously dismissive of the marketing one. It's a habit in engineering. Don't do that! Use every interview as a learning opportunity. If you don't get the job, at least you've gotten better at understanding how to fit into a job at a large company.
+
+You'll get technical questions. Sometimes it will be a piece of code where you have to find the bugs. Sometimes it will be to write an algorithm on the whiteboard to solve something. Sometimes it will be a quirky corner-case in a particular language. The best three things you can do to prepare are:
+
+- Be honest on your resume. If you claim expertise on something, and you can't answer questions or code in it, it's game over. Possibly forever with that company.
+- Read books on cracking the coding interview to learn the standard algorithms and problem types. Things like recursion, map-reduce, etc. Problems like the traveling salesperson or the eight queens. It's a great way to prepare, and fun too!
+- Have repos of *your* code on your resume. It's much more fun for you (and for the interviewer) to talk about your real stuff than it is to talk about hypotheticals
+
+Let me give an example of this. When I interviewed at Google in 2013, it was as a Cloud Developer Advocate. I had never touched Google Cloud before. In the month before the interview, I crammed. I knew Java. App Engine ran Java. 
+
+So I wrote some Java code to run on App Engine. And from that, I learned how easy it was to put Java code on the internet with Google Cloud. It was always a pain to access a public-facing App server without costing an arm and a leg. App Engine did it for free. 
+
+Then I learned how to use Cloud Datastore because a relational DB from a virtual machine didn't work well. 
+
+Then I learned how to use memory caching to speed up parts of my app. I saw how App Engine VMs were pre-emptively warmed up for performance. I also saw how, with Cloud, I only paid for the capacity I used, not a flat monthly rate regardless of traffic. 
+
+I put that on my resume. Three of my Five interviews ended up enthusiastically discussing my code and overall experience with the product. 
+
+For my final interview, the guy started by telling me that the previous interviewers had all chatted with me about my Java code, so to be fair, he wanted to try something else! He gave me a problem right out of the 'Cracking the Coding Interview' book. They hired me.
+
+So, yes -- please go ahead and write some code for the area(s) you want to get hired for. When you submit your resume for that specific job, make sure it's prominent!
+
+## Things not to do
+I've given many interviews, and I've seen some very bizarre things. I'm not going to talk about the weird ones (but that make a fun blog post someday,) but here are some common pitfalls.
+
+- Dress. Don't overdress, but don't underdress either. If you're going for a developer job, think about how you might dress on the job, and maybe take it up a little bit to err on the side of caution. Try to avoid any excess logos. You might love *Manchester United*, but don't wear their jersey to the interview! Try to avoid any logos or statements on clothing that will change the conversation away from *you* and into *what you support*. A lot of that is fine, later, after you get the job! Most places won't discriminate, so your 'Jesus Saves' tee shirt won't prevent you from getting the job, but if all they remember is that, and not your coding or working abilities, you've done yourself a massive disservice. Consider the same for sexy or revealing clothing. 
+
+- Attitude. You are a *guest* at the company during the interview, not a *VIP*. Treat your hosts with respect. One common pitfall I see here (and I think I have failed in this, myself) is that if multiple people are interviewing you simultaneously, treat them all equally. It's easy to ignore the quiet ones and focus on those speaking. Don't assume those speaking are the most senior, and don't dismiss anybody as not worth your time.
+
+- Lunch. Often, because the day is long, they'll take you for lunch. This is still an interview, and treat it as such. Please don't use it as an opportunity to let your hair down and gripe about the morning's interviews. (I have experienced this!). Also, don't treat this as an opportunity to gorge yourself on free food! Have enough to get yourself through the day, but not so much that your host can't hear a word you say over the munching.
+
+- Diversity. There's a well-documented diversity problem in tech. Be mindful of this, in particular, if you are being interviewed by those not traditionally represented. This is an opportunity for you to show that you *can* work with people from all walks of life. It's also a problem if you fail to treat them with the same respect as others. 
+
+- Handshakes. Once upon a time, it was common wisdom that you should give a firm handshake to all you meet in a business environment. The stronger the handshake, the better. That's not the case anymore. It's good to be polite, and if people offer to shake your hand, take it. But don't follow the former advice and attempt to crush their bones. And don't go strong if they are younger or smaller than you. An interview isn't a domination game, and if you treat it as such, it will be a hard pass. I still remember interviewing one guy who shook my hand so hard, crushing a ring on my finger, that for the rest of the interview, I was so sore, I can't remember anything he said. He did not get hired.
+
+- False assumptions. Please don't assume that something familiar to you is also normal to them. And don't dismiss them for not knowing it. Often they may feign ignorance as a way to get you to talk about it. I once interviewed a guy who put that his undergrad GPA was 3.9 on his resume. It was in bold, italics, and a larger font than the rest. I asked him about it, being a relatively recent immigrant from a country with a different scoring system. He belittled my apparent stupidity, told me the number of people who get that grade, threw out some random Latin words, and spoke about the colored cords at graduation. But he never actually explained what it meant. He didn't get the job. Similarly, I once interviewed a woman who mentioned a particular algorithm type that she'd worked extensively with. I asked her to explain it to me -- her response: "You work in X, and you don't know algorithm Y, what kind of place is this?" I asked her why it should be necessary for X to know Y, and she continued her lambasting. She did not get the job. Full disclosure: Of course, I knew Y, but I never got to know if her level of expertise was more significant than mine. I had hoped it was. 
+
+I'm sure there's more, but I'll leave it there. I hope this is helpful to you!
+
+
+
