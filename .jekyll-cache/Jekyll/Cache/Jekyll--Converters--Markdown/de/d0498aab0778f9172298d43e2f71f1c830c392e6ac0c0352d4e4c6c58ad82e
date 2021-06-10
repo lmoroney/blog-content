@@ -1,0 +1,55 @@
+I"�<p>Open sourcing my Sound-&gt;Emoji demo app. I created this as part of the app challenges at WWDC21!</p>
+
+<p>First of all, you need to be an Apple Developer to do this, because it requires the Xcode 13 beta, and iOS 15 in order to work. It does work really well in the emulator!</p>
+
+<p>As a starting point, I used the code that’s available from <a href="https://developer.apple.com/documentation/soundanalysis/classifying_live_audio_input_with_a_built-in_sound_classifier">Apple Developers</a></p>
+
+<p>This works really well as a starter – giving you an app with two views. The first allows you to pick which sounds you want to classify for. The second then has meters indicating the intensity of the chosen sound.</p>
+
+<p>So, for example, if I’m breathing – the second view will show something like this:</p>
+
+<p><img src="/assets/breathing.png" alt="Breathing View" /></p>
+
+<p>The following code within ContentView helps you pick which view to render:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	var body: some View {
+        ZStack {
+            if showSetup {
+                SetupMonitoredSoundsView(
+                  querySoundOptions: { return try AppConfiguration.listAllValidSoundIdentifiers() },
+                  selectedSounds: $appConfig.monitoredSounds,
+                  doneAction: {
+                    showSetup = false
+                    appState.restartDetection(config: appConfig)
+                  })
+            } else {
+                DetectSoundsView(state: appState,
+                                 config: $appConfig,
+                                 configureAction: { showSetup = true })
+            }
+        }
+    }
+</code></pre></div></div>
+
+<p>For my emoji viewer, I just edited the original DetectSoundsView to make it much simpler. One suprising thing is that the view redraws <em>on every inference</em> which seems excessive, but I didn’t change that (for now), which is why the emoji viewing video might look a little flickery.</p>
+
+<p>I edited DetectSoundsView just to draw a label with the emoji, instead of all the meters from the original with this code:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> static func generateDetectionsGrid(_ detections: [(SoundIdentifier, DetectionState)], dictionary: Dictionary&lt;String,String&gt;) -&gt; some View {
+        return ScrollView {
+            ForEach(detections, id: \.0.labelName) {
+                if($0.1.currentConfidence&gt;0.3){
+                    Label(dictionary[$0.0.labelName]!, systemImage: "").font(.system(size:120))
+                }
+            }
+        }
+    } 
+</code></pre></div></div>
+
+<p>This uses a dictionary to convert the label of the detected sound to an emoji. This is just a simple Dictionary&lt;String, String&gt; object that I create by manually assigning a label to an emoji. My code is <a href="https://github.com/lmoroney/funcode/blob/master/ios15/classifysound/ClassifySound/Support/EmojiDictionaryHelper.swift">here</a></p>
+
+<p>…and if you want a video of the app in action, you can see it on <a href="https://github.com/lmoroney/funcode/blob/master/ios15/classifysound/ClassifySound/Support/EmojiDictionaryHelper.swift">my twitter</a></p>
+
+<p>The full code for the app, borrowing heavily from the apple ample is <a href="https://github.com/lmoroney/funcode/tree/master/ios15/classifysound">here</a>.</p>
+
+:ET
