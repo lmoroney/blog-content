@@ -55,7 +55,7 @@ The following code within ContentView helps you pick which view to render. If yo
 
 This uses a dictionary to convert the label of the detected sound to an emoji. This is just a simple Dictionary<String, String> object that I create by manually assigning a label to an emoji. My code is [here](https://github.com/lmoroney/funcode/blob/master/ios15/classifysound/ClassifySound/Support/EmojiDictionaryHelper.swift)
 
-...and if you want a video of the app in action, you can see it on [my twitter](https://github.com/lmoroney/funcode/blob/master/ios15/classifysound/ClassifySound/Support/EmojiDictionaryHelper.swift)
+...and if you want a video of the app in action, you can see it on [my twitter](https://twitter.com/lmoroney/status/1403002757674459142)
 
 The full code for the app, borrowing heavily from the apple ample is [here](https://github.com/lmoroney/funcode/tree/master/ios15/classifysound). 
 
