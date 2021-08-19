@@ -4,5 +4,6 @@ source "https://rubygems.org"
 gemspec
 gem "webrick"
 gem "jekyll-redirect-from"
-gem 'jekyll-seo-tag'
-gem 'jekyll-sitemap'
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"
+gem "jekyll-theme-so-simple"
