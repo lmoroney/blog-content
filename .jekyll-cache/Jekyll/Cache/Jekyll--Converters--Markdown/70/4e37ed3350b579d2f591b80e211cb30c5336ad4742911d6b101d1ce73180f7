@@ -1,0 +1,36 @@
+I"<p><img src="/assets/girl1_tree133.jpg" alt="Image of Yoga Pose" /></p>
+
+<p>I’m a huge fan of using synthetic means to create data to drive Machine Learning understanding forward. For computer vision, one often has spend a lot of money to create a dataset of images, by, for example, hiring photographers, models, equipment and the rest.</p>
+
+<p>But with Computer Generated Imagery (CGI), it’s becoming easier to create photorealistic images on your desktop. I started this experiment with the Rock Paper Scissors and Horse or Human datasets, which you can find on this site <a href="https://laurencemoroney.com/datasets.html">here</a></p>
+
+<p>My newest creation is a Yoga Poses dataset, which you can download in its entirety from <a href="http://download.tensorflow.org/data/pose_classification/yoga_poses.zip">here</a></p>
+
+<p>It contains several hundred 300x300 full color images in 5 different Yoga Poses: Downward Dog, The Warrior, The Tree, The Chair, and The Cobra. There are many different backgrounds and both male and female models with a variety of skin and hair tones, as well as different camera angles and lighting. It’s a challenging one to build a classifier with, and hopefully will be a useful alternative to the usual run-of-the-mill datasets!</p>
+
+<p>It also includes many frames of the model going into and out of the pose, instead of just dealing with the finished pose, so you can build a classifier to potentially classify different stages should you want to!</p>
+
+<p>Here’s an example of a male model on his way into the Warrior pose:</p>
+
+<p><img src="/assets/guy2_warrior054.jpg" alt="Male model in warrior pose" /></p>
+
+<p>Or, the same model a little later into the pose!</p>
+
+<p><img src="/assets/guy2_warrior111.jpg" alt="Male model in warrior pose, later" /></p>
+
+<p>Here also is a girl entering the chair pose:</p>
+
+<p><img src="/assets/girl1_chair081.jpg" alt="Female model in chair pose, early" /></p>
+
+<p>…and the same girl deeper into the pose, from a different angle:</p>
+
+<p><img src="/assets/girl1_chair138.jpg" alt="Female model in chair pose, later" /></p>
+
+<p>There’s a really cool notebook using it with Movenet – teaching you how to integrate movenet classifications with poses on the TensorFlow site <a href="https://www.tensorflow.org/lite/tutorials/pose_classification">here</a></p>
+
+<p>…and of course, you could try this dataset with a Convolutional Neural Network, like the ones I teach about on <a href="https://www.coursera.org/learn/convolutional-neural-networks-tensorflow">Coursera</a></p>
+
+<p>I’d love to hear if you find this dataset useful, and please reach out to me on <a href="https://twitter.com/lmoroney">Twitter</a> if so!</p>
+
+<p>All of these images were created using <a href="http://daz3d.com">Daz3D</a> should you want to try for yourself!</p>
+:ET

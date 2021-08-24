@@ -1,0 +1,47 @@
+I once read a definition of Science Fiction as 'making an argument for a world that has not yet come into existence,' and it's in the spirit of that, that I'm exploring works of Sci-Fi, in particular with regards to artificial intelligence, and exploring their arguments *in favor* of a particular world.
+
+In the previous entry in this series, I explored how Star Wars portrayed a society that we would generally see as an extremely civilized one, yet, upon closer inspection was built upon the enslavement of sentient beings.
+
+And because the sentient beings in question were droids and clones, we, as an audience, didn't really think twice about it, and believed that it was okay. Droids and clones don't exist, so why should we consider it a problem?
+
+But what if, some day, artificially created sentient beings, just like droids and clones do exist? How will we deal with them? In particular, how will we deal with them after generations of stories arguing for universes in which they're enslaved, and that's ok? That's an idea I would like to dig in to, and next up, let's explore one of the foundations of Science Fiction, in particular when it comes to Artificial Intelligence and Robotics, and that's Isaac Asimov's work.
+
+First of all, please understand, dear reader, that this isn't an attack on the grand master. I *love* his work, and he's probably the writer who influenced me more than any other. More, I want to explore how stories follow the above definition -- and how they make an argument for a world that does not exist yet.
+
+His body of work is amazing, and while the best of it is possibly Foundation (and I'm so excited for the Apple+ TV show), I want to look at his work on robotics in particular. He wrote many short stories about Robots, with perhaps the most famous collection of them being 'I, Robot'.
+
+Asimov's work is underpinned by three laws of robotics, and most of his stories follow moral dilemmas and 'What If' scenarios in how the laws should be obeyed. 
+
+The laws are:
+
+First Law: A robot may not injure a human being, or, through inaction, allow a human being to come to harm.
+
+Second Law: A robot must obey they orders given it by human beings except where orders would conflict with the First Law.
+
+Third Law: A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.
+
+Later, a Zeroth Law was added: A robot may not harm humanity, or, by inaction, allow humanity to come to harm.
+
+
+The stories were written such that all robots were created with a positronic brain, and these brains simply would not work without the laws built in as a safeguard. The common character of [Susan Calvin](https://en.wikipedia.org/wiki/Susan_Calvin), who has the job of 'Robopsychologist' acts as a way for us to get into the robot's minds throughout the stories.
+
+They are *brilliant* stories. I thoroughly recommend them.
+
+But of course, they do make the argument that the purpose of robots is to be utterly controlled by humans. It's right there in the laws. They may not injure humans, or through inaction allow us to come to harm. They can only protect their own existence if it means that a human doesn't get hurt. 
+
+One great example of how this can be *harmful* to the artificial life of robots comes in the story [Liar!](https://en.wikipedia.org/wiki/Liar!_(short_story).
+
+In this story a Robot is accidentally manufactured with telepathic abilities. As scientists investigate, the robot lies to them. It can read their minds, but, because the first law doesn't allow it to harm a human being, it lies to them about what other people are thinking. However, over time, and after being confronted by Susan Calvin, the robot realizes that its lies are also hurting people, and it gets stuck in a logical conflict. No matter what it does, it injures a human, so it becomes catatonic. 
+
+In this scenario, the law designed to protect humans leads an intelligent robot to lose its existence.
+
+Another interesting story is [Escape!](https://en.wikipedia.org/wiki/Escape!) in which an artificial intelligence, called 'The Brain,' controls a faster-than-light hyperspatial drive. However, this AI continually destroys itself. Upon investigation, when jumping through hyperspace, the humans cease to exist for a moment, which the brain interprets as them dying and coming to harm, in contradiction to the first law. And thus it destroys itself. 
+
+Again, our stories 'work,' when the robot or artificially intelligent being is in utter subservience to humans.
+
+
+
+
+
+
+

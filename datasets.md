@@ -51,3 +51,15 @@ Here are a few examples showing some of the poses and the diversity of hands use
 
 #### License
 The dataset is licensed as a CC By 2.0, free for you to share and adapt for all uses, commercial or non-commercial. Please attribute and give appropriate credit to Laurence Moroney (lmoroney@gmail.com / laurencemoroney.com), and place no additional restrictions on your users as outlined here.
+
+## Yoga Poses Dataset
+This dataset contains images of 5 different Yoga Poses, rendered with a variety of models, using different skin and hair tones. It's 300x300 full color, and already split into training and test sets for you. You can learn more about the dataset and download it from [here](https://laurencemoroney.com/2021/08/23/yogapose-dataset.html)
+
+To make it a little more challenging, I've rendered the images against a variety of backgrounds, including shadows!
+
+Some examples:
+
+![A girl in chair pose](/assets/girl1_chair138.jpg)
+![A guy in warrior pose](/assets/guy2_warrior111.jpg)
+![A girl in tree pose](/assets/girl3_tree090.jpg) 
+![A girl in downward dog pose](/assets/girl2_dog033.jpg)
