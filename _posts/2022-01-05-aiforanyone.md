@@ -51,13 +51,13 @@ Chapter 1 Introduction
 
 
 ## Chapter 3: Ethics and Bias in AI
-3.1. Chapter 1 and 2 Recap 
-3.2. Understanding Bad Data 
-3.3. Teachable Machine with Bad Data 
-3.4. Explore Bias Busting Tools 
-3.5. AI Ethics and Bias: More than Data 
+3.1. Chapter 1 and 2 Recap  
+3.2. Understanding Bad Data   
+3.3. Teachable Machine with Bad Data  
+3.4. Explore Bias Busting Tools  
+3.5. AI Ethics and Bias: More than Data  
 3.6. Responsible AI Guidelines  
-3.7. Watch the TF Community Day Video 
-3.8. Principles and Tools for Responsible AI
-3.9. Recap and What's Next
+3.7. Watch the TF Community Day Video  
+3.8. Principles and Tools for Responsible AI  
+3.9. Recap and What's Next  
 
