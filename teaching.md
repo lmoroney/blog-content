@@ -13,6 +13,12 @@ This page lists the major courses I have worked on, and I hope you can find some
 
 I'm always interested in new teaching opportunities at Universities. If you're looking for a guest lecturer or adjunct professor, please email me!
 
+## Google AI for Anyone with edX and harvardX
+
+I'm passionate about helping *anyone* understand AI, and while most of my teachning involves coding, the goal of this specialization is to help those who don't want to be coders to understand and break through the hype around AI so you can make informed decisions for your domain! It's a fun set of courses that use everything from self-driving cars, to AI in medicine to help you understand how it works!
+
+[Find out more here](https://www.edx.org/course/google-ai-for-anyone)
+
 ## Tiny ML at edX with Harvard University
 
 I was honored to be a part of this specialization taught by Harvard University. The goal is to widen access to education about Machine Learning and AI on mobile and embedded systems. In the courses you'll learn about: 

@@ -101,6 +101,14 @@
 <lastmod>2021-09-21T00:00:00-07:00</lastmod>
 </url>
 <url>
+<loc>/2021/09/24/makingstargateai.html</loc>
+<lastmod>2021-09-24T00:00:00-07:00</lastmod>
+</url>
+<url>
+<loc>/2022/01/05/aiforanyone.html</loc>
+<lastmod>2022-01-05T00:00:00-08:00</lastmod>
+</url>
+<url>
 <loc>/about/</loc>
 </url>
 <url>
@@ -114,6 +122,9 @@
 </url>
 <url>
 <loc>/</loc>
+</url>
+<url>
+<loc>/ios-dev-sample.html</loc>
 </url>
 <url>
 <loc>/teaching.html</loc>
@@ -141,5 +152,9 @@
 <url>
 <loc>/assets/SGUPx01.pdf</loc>
 <lastmod>2021-05-24T19:13:00-07:00</lastmod>
+</url>
+<url>
+<loc>/assets/mnist.html</loc>
+<lastmod>2021-11-11T10:35:12-08:00</lastmod>
 </url>
 </urlset>
