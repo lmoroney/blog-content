@@ -12,7 +12,7 @@ It arrives in letterbox packaging like this.
 
 ![Cloth package](/assets/cloth1.jpg)
 
-Apple make great products, and they fully understand that the packaging is part of the experience. If you've ever spent time in Asia, it's a very asian thing. Your moments of delight start right at the first glance and touch on the product. That's what they've done here. It feels nice and sturdy. It has a pull tag at the bottom that's labeled with a little green arrow that you can peel to open the package.
+Apple makes great products, and they fully understand that the packaging is part of the experience. If you've ever spent time in Asia, it's a very asian thing. Your moments of delight start right at the first glance and touch on the product. That's what they've done here. It feels nice and sturdy. It has a pull tag at the bottom that's labeled with a little green arrow that you can peel to open the package.
 
 You tear and unfold to see this. Simple. Elegant. Almost cute.
 
