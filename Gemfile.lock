@@ -105,6 +105,8 @@ GEM
     mercenary (0.4.0)
     minitest (5.14.4)
     multipart-post (2.1.1)
+    nokogiri (1.11.5-arm64-darwin)
+      racc (~> 1.4)
     nokogiri (1.11.5-x86_64-darwin)
       racc (~> 1.4)
     octokit (4.21.0)
@@ -136,6 +138,7 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
+  arm64-darwin-21
   x86_64-darwin-20
   x86_64-darwin-21
 
@@ -150,4 +153,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.2.17
+   2.3.5
