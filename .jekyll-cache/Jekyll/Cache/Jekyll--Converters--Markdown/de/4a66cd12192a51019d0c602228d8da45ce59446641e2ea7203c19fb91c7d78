@@ -1,0 +1,14 @@
+I"�<p>I really love the combination of the ‘Ken Burns’ effect to bring images to life, with a way to cut the image up into layers, and then move each layer separately.</p>
+
+<p>It’s usually a lot of work in photoshop.</p>
+
+<p>But now, with the amazing work from <a href="https://arxiv.org/abs/1909.05483">Simon Niklaus et al</a>, it seems that ML models can perform this task by using segmentation to figure out foreground from background and inpainting to fill in the missing pixels.</p>
+
+<p>It’s ingenious.</p>
+
+<p>I played with the image from above, and got this:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hC6Ie4XTa-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>Still a bit of work to be done, and I’m hoping I can tweak for higher resolution in the video, but the effect is definitely stunning…considering it’s entirely automated!</p>
+:ET

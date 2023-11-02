@@ -17,7 +17,7 @@ I enjoy writing, and am delighted to have written many books, including several 
 
 ## Programming Books
 
-2021 (Forthcoming) -- [AI and Machine Learning for On-Device Developers](https://www.oreilly.com/library/view/ai-and-machine/9781098101732/) (O'Reilly)
+2021 [AI and Machine Learning for On-Device Developers](https://www.oreilly.com/library/view/ai-and-machine/9781098101732/) (O'Reilly)
 
 2020 [AI and Machine Learning for Coders](https://amzn.to/2Ry8683) (O'Reilly)
 

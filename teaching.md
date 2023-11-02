@@ -13,6 +13,11 @@ This page lists the major courses I have worked on, and I hope you can find some
 
 I'm always interested in new teaching opportunities at Universities. If you're looking for a guest lecturer or adjunct professor, please email me!
 
+## Pair-Programming with LLMs taught beside Andrew Ng and deeplearning.ai
+I believe there's some amazing power that can be leveraged with LLMs, but if you're using them solely to do the creation on your behalf, you're missing out on the real opportunities. In this short course, I teach about how to use them as a pair-programmer, helping you beyond just code into debugging, profiling, error handling, dependency checking and a whole lot more!
+
+[Find out more here](https://www.deeplearning.ai/short-courses/pair-programming-llm/?utm_content=teaser&utm_source=youtube&utm_medium=video&utm_campaign=palm-launch)
+
 ## Google AI for Anyone with edX and harvardX
 
 I'm passionate about helping *anyone* understand AI, and while most of my teachning involves coding, the goal of this specialization is to help those who don't want to be coders to understand and break through the hype around AI so you can make informed decisions for your domain! It's a fun set of courses that use everything from self-driving cars, to AI in medicine to help you understand how it works!
