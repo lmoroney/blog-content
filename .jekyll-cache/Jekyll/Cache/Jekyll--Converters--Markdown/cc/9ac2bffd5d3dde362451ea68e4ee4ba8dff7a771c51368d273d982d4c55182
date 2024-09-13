@@ -1,0 +1,130 @@
+I"�+<h2 id="a-case-study-in-making-a-movie-with-ai-tools">A case study in making a movie with AI tools</h2>
+
+<p>You’ve probably seen lots of short movies being made using AI tools, and you’ve wondered how they’re done. Well, here’s an example of one, and I’m going to document the process of how it was made, and while going through that, also highlight the <em>limitations</em> of the technology that lead to many of these movies looking the same.</p>
+
+<p>Here’s the movie</p>
+
+<div><div class="extensions extensions--video">
+  <iframe src="https://www.youtube.com/embed/58HE9aTrfx0?rel=0&amp;showinfo=0" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
+</div>
+</div>
+
+<p>It’s kinda cool, and it tells a story. But once you’ve seen a few movies like this, you’ll begin to see similar stuff in them, and where the moviemaker is working around the challenges.</p>
+
+<p>The big ones are:</p>
+<ul>
+  <li>Coherence: When using AI generation to create things, getting the same things in multiple pictures is difficult. Notice how the city and spaceship changes, for example.</li>
+  <li>Clip length: Generally services that create AI video will give you 3-4 seconds of video. Go longer, and you’ll see them rapidly degenerate. So, your ‘movie’ will be a sequence of 3-4 second clips.</li>
+  <li>Character interaction: You’ll often see single characters in poses with the camera moving around them. That’s what current generation technology is effectively limited to. You might have people facing each other down, but you won’t see a lot of having characters interact</li>
+  <li>Dialog: When using AI generated video, you can’t yet synch it with dialog. Not yet anyway!</li>
+</ul>
+
+<p>With that in mind, and knowing these restrictions, I wanted to create a short movie.</p>
+
+<p>Thus – I needed to string several scenes together and make a story out of them. One trick I could use is multiple shots of the same person with a similar prompt description, to embue a sense of drama. I chose to have a girl in a sci fi setting. There’s always something about looking at something huge from a distance that enthralls me.</p>
+
+<h3 id="scene-1-a-melancholy-futuristic-moment">Scene 1: A melancholy futuristic moment</h3>
+
+<p>So, I started with midjourney, and this prompt:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a long shot of a young asian woman standing on a cliff overlooking a sci fi city far below. 
+Sunny day. Science Fiction planet. She wears a black and red sci fi uniform in the style of modern anime, 
+realistic rendering of the human form, action and sci fi oriented, --ar 7:3 --niji 6
+</code></pre></div></div>
+
+<p>And it gave me this set of images:
+<img src="/assets/midj1.png" alt="First scene" /></p>
+
+<p>They’re pretty good, but not quite what I was going for, although the one on the lower left is excellent. So I tried again, tweaking the prompt slightly:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a medium shot of a young asian woman standing on a cliff overlooking a sci fi city far below. 
+Sunny day. Science Fiction planet. She wears a black and red sci fi uniform in the style of modern anime, 
+realistic rendering of the human form, action and sci fi oriented, --ar 7:3 --niji 6
+</code></pre></div></div>
+
+<p>Pretty much just asking for a medium shot:
+<img src="/assets/midj2.png" alt="Second attempt at first scene" /></p>
+
+<p>I really like the one on the upper right. It’s more a long shot, and less a medium shot, but the idea of someone looking from a distance at a far off place had the sense of melancholy and futurism I was looking for. Perfect!</p>
+
+<h3 id="scene-2-introducing-our-main-character">Scene 2: Introducing our main character</h3>
+
+<p>Ok, now we’ve seen her from the back, let’s take a look at our main character’s face. Now we should be closer, and her face – and any emotion present on it, should be the focus of the next shot. So I tried this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a full body shot of a young asian woman wearing a black and red sci fi uniform in the style of modern anime, 
+sunny day, blue skies behind, realistic rendering of the human form, action and sci fi oriented, --ar 7:3 --niji 6
+</code></pre></div></div>
+
+<p>I got some really nice results back right away:
+<img src="/assets/midj3.png" alt="First set of results for full body shot" /></p>
+
+<p>I really like the drama of the second and third images. There’s something about the expression on her face. Originally I wanted a pure anime vibe, so the first image was interesting, but after a few attempts on step 3 to see if I could get more of this character, it failed to give me something that satisfied me! So I went back to the more CGI look and feel of images 2 and 3, ultimately deciding on the third one, because I like how the low angle shot embues a lot of emotion.</p>
+
+<p>Now that I have the first intro to my MC, I wanted another shot of her, a little closer, and maybe lit a little differently to give a sense of rising drama.</p>
+
+<h3 id="scene-3-getting-deeper-into-our-mcs-feelings">Scene 3: Getting deeper into our MC’s feelings</h3>
+
+<p>Here’s where one can hit coherence challenges. When asking the engine to render ‘a young asian woman,’ there’s a lot of variety. If I want another shot of the same girl, it’s going to be tough. But I had a theory I wanted to follow, and it was pretty much brute force. Keep going until I find one that’s close, and then use ‘variations’ to get closer. So I edited the former prompt a little – asking for a close-up, as opposed to a full body shot, like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a close up of a young asian woman wearing a black and red sci fi uniform in the style of modern anime, 
+sunny day, blue skies behind, realistic rendering of the human form, action and sci fi oriented, --ar 7:3 --niji 6
+</code></pre></div></div>
+
+<p><img src="/assets/midj4.png" alt="A closeup on my MC" /></p>
+
+<p>I’m sure you’ll agree that the results are beautiful. My favorite is #3, it’s such a gorgeous shot, but it doesn’t fit my needs. The fourth one is also stunning, and reminds me somewhat of a younger version of <a href="https://thetvdb.com/series/the-expanse/people/65335768">Florence Faivre, of ‘The Expanse’ fame</a>. Not a bad thing!</p>
+
+<p>But ultimately #1 was closest in look and feel to my original image, and using the ‘variations’ control in Midjourney, I thought I’d reroll to see if I can can another look and feel that I’d prefer:</p>
+
+<p><img src="/assets/midj5.png" alt="Using variations to improve on my second shot of my MC" /></p>
+
+<p>These were all terrific, but I ultimately settled on the fourth image, as I liked the lighting on the side of her face. The third wasn’t bad either, but from experience, I found that when turning images into video, having more hair visible makes it a bit more dramatic, so that was the tiebreaker!</p>
+
+<h3 id="scene-4-adding-drama">Scene 4: Adding Drama</h3>
+<p>Ok, now I have a couple of shots of my main character, and she’s somewhat coherent. I’ve gotten over one of the main problems with this stuff. But now, as well as poses, I need a story. I had the idea for this story to take a turn to make it interesting. Instead of her lamenting the destruction of the civilization we saw in the first shot, wouldn’t it be nice if she was celebrating it instead? So for that, I wanted two more shots. One, a closeup of her eye looking at the destruction, and the other a variation of the shot from scene 3 with the dramatic lighting of flames etc. So, I’ll start with the latter.</p>
+
+<p>With MidJourney, you can start from an existing image by providing its URL, which you can get by opening the image full screen, right clicking, and selecting ‘Copy Image Address’. Enter it at the beginning of the prompt, and then enhance that with your desired updates.</p>
+
+<p>So I started with the closeup from the previous shot, and gave the URL of that image in the prompt, like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;https://s.mj.run/Z5fF0z68gkc&gt; bathed in the orange glow of flames, an evil smile on her face --ar 7:3 --niji 6
+</code></pre></div></div>
+
+<p>And I got these results:
+<img src="/assets/midj6.png" alt="Relighting my character" /></p>
+
+<p>While they’re a little more anime, and a little less CGI than the previous shot, they all look great. #3 is perhaps a little too evil! I liked #4 because, again, the eyes tell an interesting story, and kinda reflect the twist I wanted at the end.</p>
+
+<p>Finally, I needed a closeup on her eyes. This one was trickier than I expected, and I had to reroll and go through variations a number of times until I got something that told the story I wanted:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>an extreme close up of the eyes a young asian woman wearing a black and red sci fi uniform in the style of modern CGI anime, 
+sunny day, blue skies behind, reflection of a sci fi city in her eyes, action and sci fi oriented, --ar 7:3 --niji 6
+</code></pre></div></div>
+
+<p>I particularly like that even through I didn’t ask for the city to be in flames, it gave me one!</p>
+
+<p><img src="/assets/midj7.png" alt="My character's eye in closeup" /></p>
+
+<h3 id="scenes-5-and-onwards-the-alien-invasion">Scenes 5 and onwards, the alien invasion</h3>
+
+<p>This part was relatively easy because it didn’t involve a human character. We can be more forgiving if the spaceships and city looks different, and I can write around that – talking about the destruction of an entire civilization, so diversity in image is a strength, so I got a bunch of prompts like these, to create the scenes:</p>
+
+<p>Before the attack</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a high tech sci fi city in the style of modern CGI anime, sunny day, blue skies, 
+a dark, ugly, spaceship hovering over it, contrasting the beauty of the city. 
+Action and Sci-Fi oriented. --ar 7:3 --niji 6
+</code></pre></div></div>
+
+<p>After the attack</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a high tech sci fi city burning. Flames everywhere torching each of the buildings. 
+In the style of modern CGI anime, sunny day, blue skies. 
+Action and Sci-Fi oriented. --ar 7:3 --niji 6 
+</code></pre></div></div>
+
+<p>From the variations on these, I was able to grab a few frames. I now had a number of frames that storyboarded my movie. The next part would be to animate them, and I’ll talk about that in the next post. But first, here’s how the 8 frames tied together into a storyboard, and we can begin to see a story emerge from them:</p>
+
+<p><img src="/assets/scene.gif" alt="Storyboarded movie" /></p>
+
+:ET
