@@ -16,13 +16,13 @@
 
 ## => Site Settings
 ##############################
-text_skin: dark # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-highlight_theme: tomorrow-night # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+text_skin: "ocean" # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+highlight_theme: "tomorrow" # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
 title   : Laurence Moroney - The AI Guy. 
 description: > # this means to ignore newlines until "Language & timezone"
-  This is the blog and general web site of Laurence Moroney, author, lecturer, teacher and AI lead at Google with Musings on AI, Quantum and other future tech
+  This is the blog and general web site of Laurence Moroney, AI expert and advisor, speaker, researcher, and author.
 
 
 ## => Language and Timezone

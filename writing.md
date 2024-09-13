@@ -4,13 +4,6 @@ aside:
   toc: true
 title: My Writing
 key: page-books
-article_header:
-  type: overlay
-  theme: dark
-  background_color: '#203028'
-  background_image:
-    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .9), rgba(139, 34, 139, .9))'
-    src: /assets/coverscollage.png
 ---
 
 I enjoy writing, and am delighted to have written many books, including several best-sellers. While I'm probably best known for my programming books, I've also authored several popular Science Ficiton novels (which earned me membership to the Science Fiction Writers of America), comic books, and even a produced TV show! Here's a list of what I've worked on.
@@ -54,6 +47,8 @@ I enjoy writing, and am delighted to have written many books, including several 
 2004 [Expert Web Services in the .NET Platform](https://amzn.to/2SmL6ZH) (APress)
 
 ## Novels
+
+2024 [Locust Magic](https://amzn.to/4edB3ec)
 
 2016 [Transhuman - The Deconstruction of Hu Ying Chao](https://play.google.com/store/books/details/TRANSHUMAN_Volume_1_The_Deconstruction_of_Hu_Ying_?id=iaEwCgAAQBAJ&hl=en_CA) (Destiny Press)
 

@@ -1,8 +1,18 @@
-I"�<p>I’m incredibly passionate about teaching and ecstatic that in the last few years, I have been able to scale to millions of students via MOOC platforms like Coursera, edX, and Udacity.</p>
+I"0<p>I’m incredibly passionate about teaching and ecstatic that in the last few years, I have been able to scale to millions of students via MOOC platforms like Coursera, edX, and Udacity.</p>
 
 <p>This page lists the major courses I have worked on, and I hope you can find something interesting to learn from them.</p>
 
 <p>I’m always interested in new teaching opportunities at Universities. If you’re looking for a guest lecturer or adjunct professor, please email me!</p>
+
+<h2 id="generative-ai-for-software-development">Generative AI for Software Development</h2>
+<p>This skills certificate is 9 courses in how to use generative AI as a software developer. There’s a lot of fear, uncertainty, and doubt about how code-generation LLMs might put software developers out of work. I argue the <em>opposite</em> – there has never been a better time to take your programming skills and force multiply them to make you a better developer. So, I will guide you through a comprehensive pathway to understand and apply generative AI technologies in real-world software development.</p>
+
+<div><div class="extensions extensions--video">
+  <iframe src="https://www.youtube.com/embed/l7psX86Frng?rel=0&amp;showinfo=0" frameborder="0" scrolling="no" allowfullscreen=""></iframe>
+</div>
+</div>
+
+<p><a href="https://www.deeplearning.ai/courses/generative-ai-for-software-development/">Find out more here</a></p>
 
 <h2 id="pair-programming-with-llms-taught-beside-andrew-ng-and-deeplearningai">Pair-Programming with LLMs taught beside Andrew Ng and deeplearning.ai</h2>
 <p>I believe there’s some amazing power that can be leveraged with LLMs, but if you’re using them solely to do the creation on your behalf, you’re missing out on the real opportunities. In this short course, I teach about how to use them as a pair-programmer, helping you beyond just code into debugging, profiling, error handling, dependency checking and a whole lot more!</p>

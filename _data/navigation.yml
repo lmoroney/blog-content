@@ -1,9 +1,10 @@
 header:
-  - title: Home
-    url: /archive.html
 
-  - title: About
+  - title: Home
     url: /about.html
+
+  - title: Blog
+    url: /archive.html
 
   - title: Writing
     url: /writing.html

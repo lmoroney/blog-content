@@ -13,6 +13,13 @@ This page lists the major courses I have worked on, and I hope you can find some
 
 I'm always interested in new teaching opportunities at Universities. If you're looking for a guest lecturer or adjunct professor, please email me!
 
+## Generative AI for Software Development
+This skills certificate is 9 courses in how to use generative AI as a software developer. There's a lot of fear, uncertainty, and doubt about how code-generation LLMs might put software developers out of work. I argue the *opposite* -- there has never been a better time to take your programming skills and force multiply them to make you a better developer. So, I will guide you through a comprehensive pathway to understand and apply generative AI technologies in real-world software development.
+
+<div>{%- include extensions/youtube.html id='l7psX86Frng' -%}</div>
+
+[Find out more here](https://www.deeplearning.ai/courses/generative-ai-for-software-development/)
+
 ## Pair-Programming with LLMs taught beside Andrew Ng and deeplearning.ai
 I believe there's some amazing power that can be leveraged with LLMs, but if you're using them solely to do the creation on your behalf, you're missing out on the real opportunities. In this short course, I teach about how to use them as a pair-programmer, helping you beyond just code into debugging, profiling, error handling, dependency checking and a whole lot more!
 
